@@ -22,10 +22,11 @@ double atof(char s[])
     return sign * val / power;
 }
 
-main ()
+int main ()
 {
     char a[11] = "-15.456545";
     double test;
     test = atof(a);
     printf("%f", test);
+    return 0;
 }

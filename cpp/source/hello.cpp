@@ -1,16 +1,19 @@
 #include <iostream>
-#include <vector>
-#include <string>
+#include <conio.h>
+#include <stdio.h>
+
+#define LIMIT 100
 
 using namespace std;
 
-int main()
-{
+int main(){
+    int a = 0;
+    int * ap;
+    ap = &a;
+    *ap = 20;
 
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code!"};
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    cout << "Hello World!" << endl;
+    cout << "Hello World!" << endl;
+    printf("Buenas noches");
+    return 0;
 }
