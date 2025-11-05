@@ -1,0 +1,1 @@
+int getline(char *, int);
